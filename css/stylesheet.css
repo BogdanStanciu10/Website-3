@@ -1,0 +1,480 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    font: normal 12px/1.6em Arial;
+}
+p{
+    text-align: justify;
+}
+
+#container {
+    width: 100%;
+    overflow: hidden;
+}
+
+#logo {
+    background: black;
+    padding: 5px;
+}
+
+#imag{
+   margin-left: 50px;
+}
+
+.centercontent {
+    font-size: 16px;
+    margin: 60px;
+}
+
+.centercontent h1 {
+     font-size: 25px;
+     text-align: center;
+}
+
+.centercontent p {
+    text-align: justify;
+    font-size: 20.4px;
+    line-height: normal;
+}
+
+.centercontentimage h1{
+    font-size: 30px;
+    margin: 30px;
+}
+
+.centercontentimage img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+#navbar {
+    float: right;
+    padding: 23px;
+    opacity: .8;
+}
+
+.ulist{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    color: white;
+}
+
+.listEle{
+    float:left;
+    text-align: center;
+    list-style: none;
+    background-color: black;
+    opacity: .8;
+	position: relative;
+}
+
+.listEle > a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: block;
+	padding: 0 10px;
+	border-right: 2px solid white;
+}
+
+li.listEle.last a{
+	border-right: 0;
+}
+
+.listEle a:hover{
+    background: black;
+}
+
+.ulist .listEle .ulist {
+	display: none;
+	position: absolute;
+	width: 100%;
+	padding: 5px 0;
+	background: black;
+}
+
+.listSubele a{
+    font-size: 13px;
+	display:block;
+	padding:5px 0;
+}
+
+.listSubele a:hover{
+	background-color: #4db34d;
+}
+
+.listEle:hover .ulist{
+    display: block;
+}
+
+.bikers h1{
+
+    text-align: center;
+    font-size: 30px;
+}
+.bikers{
+    float: none;
+    margin: 0px;
+    padding: 60px;
+    background: #d2232a;
+    color: white;
+}
+
+.bikers p{
+    text-align: justify;
+    line-height: normal;
+    font-size: 20px;
+    text-align: justify;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.videomain {
+    float: right;
+    padding: 20px;
+}
+
+#footer {
+    background: black;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    overflow: hidden;
+    text-align: center;
+}
+
+#footer img {
+    margin: 5px;
+    overflow: hidden;
+
+}
+
+.textunderline h1 {
+    text-decoration: underline;
+    text-decoration-color: #4db34d;
+    text-align: center;
+    font-size: 40px;
+}
+
+.continutsus p{
+    padding: 30px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.contentdesprenoi {
+    float: left;
+    overflow: hidden;
+}
+
+.imagedesprenoi {
+    float: left;
+    overflow: hidden;
+    margin-left: 62px;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+.continutright {
+    float: right;
+    width: 50%;
+    margin-right: 40px;
+}
+
+.continutright p{
+    font-size: 18px;
+}
+
+.continutleft p{
+    font-size: 18px;
+}
+
+.continutleft {
+    float: left;
+    width: 40%;
+    margin-left: 60px;
+}
+
+
+.contenttop p{
+  font-size: 18px;
+  text-align: justify;
+  margin: 30px;
+}
+
+.contentleft {
+  float: left;
+  width: 30%;
+}
+
+.contentleft p{
+    margin: 30px;
+    font-size: 18px;
+}
+
+.contentleft h2 {
+  text-align: center;
+}
+
+.contentright {
+  float: left;
+  margin-top: 30px;
+  margin-right: 30px;
+  width: 10%;
+}
+
+.contentleft li {
+  font-size: 14.5px;
+  text-align: justify;
+}
+
+
+.contentdown{
+  overflow: hidden;
+  margin: 30px;
+}
+
+.columnleft{
+    float: left;
+    width: 32%;
+    margin: 15px;
+}
+
+.columnleft p{
+    font-size: 16px;
+}
+
+.columnright p{
+    font-size: 16px;
+}
+
+.columncenter p{
+    font-size: 16px;
+}
+
+.columnright {
+  width: 30%;
+  float: right;
+  margin: 15px
+}
+
+.columncenter{
+  display: inline-block;
+  width: 31%;
+  margin: 15px;
+}
+
+.contentdown h1{
+  font-size: 40px;
+    text-align: center;
+}
+
+.columnleft h2{
+    text-align: center;
+}
+
+.columncenter h2{
+    text-align: center;
+}
+
+.columnright h2{
+    text-align: center;
+}
+
+.continutmiddle {
+    background: #ffcd0b;
+    float: none;
+    margin: 0px;
+    padding: 60px;
+}
+
+.continutmiddle p{
+    text-align: justify;
+    line-height: normal;
+    font-size: 20px;
+    text-align: justify;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.continutmiddle h1 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+.coloanastanga p{
+    font-size: 16px;
+}
+
+.coloanadreapta p{
+    font-size: 16px;
+}
+
+.coloanastanga {
+    width: 45%;
+    float:left;
+    margin-left: 30px;
+}
+
+.coloanadreapta {
+    width: 45%;
+    float: right;
+    overflow: hidden;
+    margin-right: 30px;
+}
+
+.continutdown {
+    float: left; 
+}
+
+.continutmijloc h1 {
+    text-align: center;
+}
+
+.continutdown {
+    margin: 30px;
+}
+
+.continutmijloc {
+    margin: 30px;
+}
+
+.DRRRcontenttop h2{
+    margin: 30px;
+}
+
+.DRRRcontenttop ul {
+    font-size: 18px;
+    line-height: normal;
+    
+}
+
+.DRRRmiddle {
+    background: #dd3333;
+    float: left;
+    overflow: hidden;
+    padding: 0px;
+    clear: both;
+}
+
+.DRRRimage{
+    float: right;
+}
+
+.DRRRmiddle h1{
+    color: white;
+    font-size: 40px;
+    line-height: normal;
+    margin-left: 30px;
+}
+
+.DRRRmiddle p{
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    line-height: normal;
+    margin: 30px;
+    overflow: hidden;
+}
+
+.HABmiddle {
+    background: #459c2f;
+    float: left;
+    padding: 30px;
+}
+
+.HABmiddle h1{
+    color: white;
+    text-align: center;
+}
+
+.HABmiddle p{
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    line-height: normal;
+    margin: 15px;
+    overflow: hidden;
+}
+
+.HABmiddle ul{
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    line-height: normal;
+    margin: 15px;
+    overflow: hidden;
+}
+
+.HABimage {
+    float: right;
+}
+
+.column {
+    margin-top: 20px;
+}
+
+.down h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.down p{
+    text-align: justify;
+    font-size: 20px;
+    line-height: normal;
+    margin: 30px;
+    overflow: hidden;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact p {
+    text-align: center;
+}
+
+.contactdown {
+    margin: 30px;
+}
+
+.contactdown h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.contactdown h2 {
+    text-align: left;
+    font-size: 25px;
+}
+
+
+.contactdown a {
+    color: #4db34d;;
+}
+
+h3 {
+    text-align: center;
+    font-size: 18px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+hr {
+opacity: .2;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
